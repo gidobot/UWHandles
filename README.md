@@ -2,7 +2,7 @@
 This is a meta repository for UWHandles dataset, which can be downloaded from this Google Drive link:  
 [**[UWHandles]**](https://drive.google.com/file/d/1mZYeBiceVeo9dRYaCuJBaY63NufiA_fB/view?usp=sharing)
 
-UWHandles is a dataset for 6D object pose estimation in underwater fisheye images. It provides 6D pose and 2D bounding box annotations for 3 different graspable handle objects used for ROV manipulation observed in 28 image sequences collected in natural seafloor environments with a total of 20,427 annotated frames.
+UWHandles is a dataset for 6D object pose estimation in underwater fisheye images. It provides 6D pose and 2D bounding box annotations for 3 different graspable handle objects used for ROV manipulation. The dataset consists of 28 image sequences collected in natural seafloor environments with a total of 20,427 annotated frames.
 
 ## File Structure
  ```
