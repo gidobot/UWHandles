@@ -28,6 +28,10 @@ uwhandles
 ```
 ## Overview
 
+Sample annotated sequence, showing center rectified images for visualization of the model handle projections
+
+![Output sample](https://github.com/gidobot/gifs/raw/master/VisPose_Reviewer.gif)
+
 ## Citation
 If you use this dataset, we request you to cite the following work.
 ```
