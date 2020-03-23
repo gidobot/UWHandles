@@ -2,12 +2,15 @@
 """
 Simple functions to load and merge the UWHandles dataset annotations and reparse them into an iterable dictionary
 format. The "is_fisheye" flag in the code indicates whether the raw fisheye or center rectified images should be
-loaded.
+loaded. These functions are intended as reference only and are best incorporated into a data loader class.
 """
 
 import json
 import os
 import os.path as osp
+
+_CLASSES = ('__background__', 'soihandle', 'umichhandle', 'whoihandle')
+_CLASS_TO_IND = dict(zip(_CLASSES, range(len(_CLASSES))))
 
 def parse_annotations(file):
     with open(file, 'r') as f:
@@ -39,9 +42,9 @@ def refactor_annotations(annotations, start_index, setpath, is_fisheye):
             ann['image_id'] = id_map[ann['image_id']]
             image_id = ann['image_id']
             classname = classes[ann['category_id']]
-            assert classname in self._classes, \
+            assert classname in _CLASSES, \
                 'class type does not exist: {}'.format(classname)
-            ann['category_id'] = self._class_to_ind[classname]
+            ann['category_id'] = _CLASS_TO_IND[classname]
             images[image_id]['annotations'].append(ann)
     return images
 
