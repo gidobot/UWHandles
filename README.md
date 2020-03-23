@@ -5,7 +5,7 @@ This is a meta repository for UWHandles dataset, which can be downloaded from th
 UWHandles is a dataset for 6D object pose estimation in underwater fisheye images. It provides 6D pose and 2D bounding box annotations for 3 different graspable handle objects used for ROV manipulation observed in 28 image sequences collected in natural seafloor environments with a total of 20,427 annotated frames.
 
 ## File Structure
- '''
+ ```
 uwhandles
 └───calibration  
 │   │   fisheye_calib.yaml -> calibration file for fisheye  
@@ -25,7 +25,7 @@ uwhandles
     |   |   textured_real.glb -> glb files for the 3 different handle objects with additional material properties for more realistic rendering in Blender  
     └───rendered  
         └───<object_name> -> contains rendered images of the textured.obj models at different viewpoints
-'''
+```
 ## Overview
 
 ## Citation
