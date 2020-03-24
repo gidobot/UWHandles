@@ -35,9 +35,7 @@ Sample annotated sequence, showing center rectified images for visualization of 
 The dataset was annotated using the VisPose annotation tool, which can also be used to review the annotations:  
 [**[VisPose]**](https://github.com/gidobot/VisPose)
 
-The sequence consistent camera poses for input to the VisPose annotation tool were generated using the ROS based [**TagSLAM**](https://berndpfrommer.github.io/tagslam_web/) package.
-
-Below is a sample sequence showing the AprilTag detector and TagSLAM estimated camera poses
+The sequence consistent camera poses for input to the VisPose annotation tool were generated using the ROS based [**TagSLAM**](https://berndpfrommer.github.io/tagslam_web/) package. Below is a sample sequence showing the AprilTag detector and TagSLAM estimated camera poses
 
 ![Output sample](https://github.com/gidobot/gifs/raw/master/VisPose_AprilSLAM.gif)
 
