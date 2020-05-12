@@ -42,10 +42,13 @@ The sequence consistent camera poses for input to the VisPose annotation tool we
 ## Citation
 If you use this dataset, we request you to cite the following work.
 ```
-@article{billings2020silhonet,
-  title={SilhoNet-Fisheye: Adaptation of A ROI Based Object Pose Estimation Network to Monocular Fisheye Images},
-  author={Billings, Gideon and Johnson-Roberson, Matthew},
-  journal={arXiv preprint arXiv:2002.12415},
-  year={2020}
+@ARTICLE{9091344,
+ author={G. {Billings} and M. {Johnson-Roberson}},
+ journal={IEEE Robotics and Automation Letters},
+ title={SilhoNet-Fisheye: Adaptation of A ROI-Based Object Pose Estimation Network to Monocular Fisheye Images},
+ year={2020},
+ volume={},
+ number={},
+ pages={1-1},
 }
 ```
