@@ -47,8 +47,5 @@ If you use this dataset, we request you to cite the following work.
  journal={IEEE Robotics and Automation Letters},
  title={SilhoNet-Fisheye: Adaptation of A ROI-Based Object Pose Estimation Network to Monocular Fisheye Images},
  year={2020},
- volume={},
- number={},
- pages={1-1},
 }
 ```
