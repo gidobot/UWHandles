@@ -1,4 +1,4 @@
-# Underwater Handles Dataset (UWHandles_dataset)
+# Underwater Handles Dataset
 
 his is a meta repository for UWHandles dataset, which can be downloaded from this link:  
 [**[UWHandles]**](https://deepblue.lib.umich.edu/data/concern/data_sets/c821gk19x?locale=en)
